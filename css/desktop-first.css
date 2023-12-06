@@ -1,0 +1,45 @@
+@media screen and (max-width: 1160px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+}
+/* FACENDO IL PUNTO BONUS CREDO CHE QUESTA MEDIA QUERY
+ NON ABBIA PIU' SENSO DI ESISTERE DATO CHE SI SOMMEREBBE//* @media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+} */
+
+@media screen and (max-width: 480px) {
+  .why-us,
+  .steps,
+  .lessons {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .row {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .lessons .col,
+  .steps .col,
+  .why-us .col-right,
+  .why-us .col-left {
+    width: 100%;
+  }
+  .steps {
+    margin-bottom: 0;
+  }
+
+  .why-us {
+    background-color: #222222;
+    margin-bottom: 0;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+  }
+}
